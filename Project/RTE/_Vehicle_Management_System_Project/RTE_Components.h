@@ -4,7 +4,7 @@
  *      *** Do not modify ! ***
  *
  * Project: 'Project' 
- * Target:  'Vehicle Management System Project' 
+ * Target:  'Vehicle_Management_System_Project' 
  */
 
 #ifndef RTE_COMPONENTS_H
