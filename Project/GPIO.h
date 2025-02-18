@@ -20,8 +20,8 @@
 #define MFRC522_SCK_PIN		GPIO_Pin_13						/* RFID SCK Pin */
 #define MFRC522_MISO_PIN	GPIO_Pin_14						/* RFID MISO Pin */
 #define MFRC522_MOSI_PIN	GPIO_Pin_15						/* RFID MOSI Pin */
-#define MFRC522_GPIO			GPIOB									/* RFID GPIO */
-#define MFRC522_GPIO_RCC	RCC_APB2Periph_GPIOB	/* GPIO RCC for RFID */
+#define MFRC522_GPIO		GPIOB							/* RFID GPIO */
+#define MFRC522_GPIO_RCC	RCC_APB2Periph_GPIOB	        /* GPIO RCC for RFID */
 
 /**************************************************************************
  * Macros set/reset logical state of RFID CS Pin
@@ -34,41 +34,41 @@
 /**************************************************************************
  * Define GPIO pin, port, RCC for SPI to use SD card module 
  **************************************************************************/
-#define SDCARD_CS_PIN			GPIO_Pin_4						/* SD Card CS Pin */
-#define SDCARD_SCK_PIN		GPIO_Pin_5						/* SD Card SCK Pin */
-#define SDCARD_MISO_PIN		GPIO_Pin_6						/* SD Card MISO Pin */
-#define SDCARD_MOSI_PIN		GPIO_Pin_7						/* SD Card MOSI Pin */
-#define SDCARD_GPIO				GPIOA									/* SD Card GPIO */
-#define SDCARD_GPIO_RCC		RCC_APB2Periph_GPIOA	/* GPIO RCC for SD Card */
+#define SDCARD_CS_PIN		GPIO_Pin_4				/* SD Card CS Pin */
+#define SDCARD_SCK_PIN		GPIO_Pin_5				/* SD Card SCK Pin */
+#define SDCARD_MISO_PIN		GPIO_Pin_6				/* SD Card MISO Pin */
+#define SDCARD_MOSI_PIN		GPIO_Pin_7				/* SD Card MOSI Pin */
+#define SDCARD_GPIO			GPIOA					/* SD Card GPIO */
+#define SDCARD_GPIO_RCC		RCC_APB2Periph_GPIOA    /* GPIO RCC for SD Card */
 
 /**************************************************************************
  * Define GPIO pin, port, RCC for Servo
  **************************************************************************/
-#define SERVO_PIN					GPIO_Pin_0						/* Servo Pin */
-#define SERVO_GPIO				GPIOA									/* Servo GPIO */
+#define SERVO_PIN			GPIO_Pin_0				/* Servo Pin */
+#define SERVO_GPIO			GPIOA					/* Servo GPIO */
 #define SERVO_GPIO_RCC		RCC_APB2Periph_GPIOA	/* GPIO RCC for Servo */
 
 /**************************************************************************
  * Define GPIO pin, port, RCC for LED
  **************************************************************************/
-#define LED_PIN						GPIO_Pin_13						/* LED Pin */
-#define LED_GPIO					GPIOC									/* LED GPIO */
+#define LED_PIN					GPIO_Pin_13				/* LED Pin */
+#define LED_GPIO				GPIOC					/* LED GPIO */
 #define LED_GPIO_RCC			RCC_APB2Periph_GPIOC	/* GPIO RCC for LED */
 
 /**************************************************************************
  * Define GPIO pin, port, RCC for a module use UART to debug
  **************************************************************************/
-#define UART_TX_PIN				GPIO_Pin_9						/* UART TX Pin */
-#define UART_RX_PIN				GPIO_Pin_10						/* UART RX Pin */
-#define UART_GPIO					GPIOA									/* UART GPIO */
+#define UART_TX_PIN				GPIO_Pin_9				/* UART TX Pin */
+#define UART_RX_PIN				GPIO_Pin_10				/* UART RX Pin */
+#define UART_GPIO				GPIOA					/* UART GPIO */
 #define UART_GPIO_RCC			RCC_APB2Periph_GPIOA	/* GPIO RCC for UART */
 
 /**************************************************************************
  * Define GPIO pin, port, RCC for I2C to use LCD module
  **************************************************************************/
-#define I2C_SCL_PIN				GPIO_Pin_6						/* I2C SCL Pin */
-#define I2C_SDA_PIN				GPIO_Pin_7						/* I2C SDA Pin */
-#define I2C_GPIO					GPIOB									/* I2C GPIO */
+#define I2C_SCL_PIN				GPIO_Pin_6				/* I2C SCL Pin */
+#define I2C_SDA_PIN				GPIO_Pin_7				/* I2C SDA Pin */
+#define I2C_GPIO				GPIOB					/* I2C GPIO */
 #define I2C_GPIO_RCC			RCC_APB2Periph_GPIOB	/* GPIO RCC for I2C */
 
 /**************************************************************************

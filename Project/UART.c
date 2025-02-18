@@ -34,7 +34,7 @@ void UART_Config()
 /**************************************************************************
  * @brief   UART_SendChar
  * @details This function sends a character from UART1.
- * @param   c			Character that sent by UART1
+ * @param   c		Character that sent by UART1
  * @return  void
  **************************************************************************/
 void UART_SendChar(char c)

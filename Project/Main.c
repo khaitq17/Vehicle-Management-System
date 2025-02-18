@@ -11,22 +11,22 @@
 /**************************************************************************
  * Global variables 
  **************************************************************************/
-FATFS fs;											/* Store file system information of the SD card */
-FIL file;											/* Store information about open files in the file system */
-FRESULT fr;										/* Store the result of file operations */
-char line[128];								/* Store a line of text when reading/writing from a file */
-TM_MFRC522_Status_t status;		/* Store the status of the RFID module MFRC522 */
-uint8_t cardID[5];						/* Store the UID of the RFID tag (5 bytes) */
-Node* uidList = NULL;					/* Store a linked list of RFID tag UIDs */
-uint8_t uids[MAX_UIDS][5]; 		/* Store UIDs of the system */
-int uidCount = 0;							/* Store number of UIDs of the system */
+FATFS fs;					/* Store file system information of the SD card */
+FIL file;					/* Store information about open files in the file system */
+FRESULT fr;					/* Store the result of file operations */
+char line[128];				/* Store a line of text when reading/writing from a file */
+TM_MFRC522_Status_t status;	/* Store the status of the RFID module MFRC522 */
+uint8_t cardID[5];			/* Store the UID of the RFID tag (5 bytes) */
+Node* uidList = NULL;		/* Store a linked list of RFID tag UIDs */
+uint8_t uids[MAX_UIDS][5]; 	/* Store UIDs of the system */
+int uidCount = 0;			/* Store number of UIDs of the system */
 
 /**************************************************************************
  * @brief   Main function
  * @details This function is the main program to manage system, includes
- *					configure necessary peripherals and modules, load file to RAM
- *					and add UIDs to linked list, scan RFID card and check if UID 
- *					already exists in linked list to control servo.
+ *			configure necessary peripherals and modules, load file to RAM
+ *			and add UIDs to linked list, scan RFID card and check if UID 
+ *			already exists in linked list to control servo.
  **************************************************************************/
 int main(void)
 {
@@ -98,5 +98,5 @@ int fputc(int ch, FILE *f)
 	USART_SendData(USART1, (uint8_t)ch);
 	while (!USART_GetFlagStatus(USART1, USART_FLAG_TC)){}
     
-  return ch;
+	return ch;
 }

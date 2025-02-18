@@ -12,7 +12,7 @@
 /**************************************************************************
  * @brief   GPIO_Config
  * @details This function configures GPIO for RFID module, SD card module, 
- *					Servo, LED, UART.
+ *			Servo, LED, UART.
  * @param   none
  * @return  void
  **************************************************************************/

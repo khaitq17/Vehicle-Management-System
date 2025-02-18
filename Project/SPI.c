@@ -55,7 +55,7 @@ void SPI_Config()
 /**************************************************************************
  * @brief   MFRC522_SPI_Send
  * @details This function sends and receives data from SPI of RFID module.
- * @param   data		Data to send from SPI of RFID module
+ * @param   data	Data to send from SPI of RFID module
  * @return  uint8_t	Return data from SPI of RFID module
  **************************************************************************/
 uint8_t MFRC522_SPI_Send(uint8_t data)
@@ -70,7 +70,7 @@ uint8_t MFRC522_SPI_Send(uint8_t data)
 /**************************************************************************
  * @brief   SDCard_SPI_Send
  * @details This function sends and receives data from SPI of SD card module.
- * @param   data		Data to send from SPI of SD card module
+ * @param   data	Data to send from SPI of SD card module
  * @return  uint8_t	Return data from SPI of SD card module
  **************************************************************************/
 uint8_t SDCard_SPI_Send(uint8_t data)

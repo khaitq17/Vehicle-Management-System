@@ -15,14 +15,14 @@
 /**************************************************************************
  * Define SPI and RCC for RFID module
  **************************************************************************/
-#define MFRC522_SPI				SPI2								/* RFID SPI */
-#define MFRC522_SPI_RCC		RCC_APB1Periph_SPI2	/* SPI RCC for RFID */
+#define MFRC522_SPI			SPI2				    /* RFID SPI */
+#define MFRC522_SPI_RCC		RCC_APB1Periph_SPI2	    /* SPI RCC for RFID */
 
 /**************************************************************************
  * Define SPI and RCC for SD card
  **************************************************************************/
-#define SDCARD_SPI				SPI1								/* SD Card SPI */
-#define SDCARD_SPI_RCC		RCC_APB2Periph_SPI1	/* SPI RCC for SD Card */
+#define SDCARD_SPI			SPI1				    /* SD Card SPI */
+#define SDCARD_SPI_RCC		RCC_APB2Periph_SPI1	    /* SPI RCC for SD Card */
 
 /**************************************************************************
  * @brief   SPI_Config
@@ -33,14 +33,14 @@ void SPI_Config(void);
 
 /**************************************************************************
  * @brief   MFRC522_SPI_Send
- * @param   data		Data to send from SPI of RFID module
+ * @param   data	Data to send from SPI of RFID module
  * @return  uint8_t	Return data from SPI of RFID module
  **************************************************************************/
 uint8_t MFRC522_SPI_Send(uint8_t data);
 
 /**************************************************************************
  * @brief   SDCard_SPI_Send
- * @param   data		Data to send from SPI of SD card module
+ * @param   data	Data to send from SPI of SD card module
  * @return  uint8_t	Return data from SPI of SD card module
  **************************************************************************/
 uint8_t SDCard_SPI_Send(uint8_t data);

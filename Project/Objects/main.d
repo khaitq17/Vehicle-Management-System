@@ -15,7 +15,7 @@
   C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h \
   C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h \
   C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h \
-  GPIO.h TIM.h SPI.h UART.h servo.h MFRC522\MFRC522.h FatFs\src\ff.h \
+  GPIO.h TIM.h SPI.h UART.h Servo.h MFRC522\MFRC522.h FatFs\src\ff.h \
   FatFs\src\integer.h FatFs\ffconf.h FatFs\fatfs.h \
   FatFs\src\ff_gen_drv.h FatFs\src\diskio.h FatFs\user_diskio.h \
   FatFs\fatfs_sd.h System_Handler.h \

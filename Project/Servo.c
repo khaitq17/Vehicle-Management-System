@@ -1,5 +1,5 @@
 /***************************************************************************
- * @file    servo.c
+ * @file    Servo.c
  * @brief   Define functions related to control Servo
  * @details This file defines functions to rotate Servo.
  * @version 1.0
@@ -11,8 +11,8 @@
 /**************************************************************************
  * @brief   getPulseByAngle
  * @details This function calculates pulse width by angle when use Servo
- *					180 degrees.
- * @param   angle			Angle that want Servo rotate to
+ *			180 degrees.
+ * @param   angle		Angle that want Servo rotate to
  * @return  uint16_t	Return pulse width after calculate by angle
  **************************************************************************/
 uint16_t getPulseByAngle(uint8_t angle)
@@ -23,7 +23,7 @@ uint16_t getPulseByAngle(uint8_t angle)
 /**************************************************************************
  * @brief   openBarrier
  * @details This function rotates Servo to open the barrier. When scan 
- *					a valid card, Servo will rotate from 0 to 90 degrees in 500 ms.
+ *			a valid card, Servo will rotate from 0 to 90 degrees in 500 ms.
  * @param   none
  * @return  void
  **************************************************************************/
@@ -42,8 +42,8 @@ void openBarrier()
 /**************************************************************************
  * @brief   closeBarrier
  * @details This function rotates Servo to close the barrier. After open  
- *					the barrier in a specific time, Servo will rotate from 90 to 0 
- *					degrees in 500 ms.
+ *			the barrier in a specific time, Servo will rotate from 90 to 0 
+ *			degrees in 500 ms.
  * @param   none
  * @return  void
  **************************************************************************/

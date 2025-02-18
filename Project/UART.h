@@ -22,7 +22,7 @@ void UART_Config(void);
 
 /**************************************************************************
  * @brief   UART_SendChar
- * @param   c			Character that sent by UART1
+ * @param   c		Character that sent by UART1
  * @return  void
  **************************************************************************/
 void UART_SendChar(char c);

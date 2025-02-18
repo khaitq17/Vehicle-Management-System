@@ -1,5 +1,5 @@
 /***************************************************************************
- * @file    servo.h
+ * @file    Servo.h
  * @brief   Declare functions related to control Servo
  * @details This file includes functions to rotate Servo.
  * @version 1.0
@@ -21,7 +21,7 @@
 
 /**************************************************************************
  * @brief   getPulseByAngle
- * @param   angle			Angle that want Servo rotate to
+ * @param   angle		Angle that want Servo rotate to
  * @return  uint16_t	Return pulse width after calculate by angle
  **************************************************************************/
 uint16_t getPulseByAngle(uint8_t angle);

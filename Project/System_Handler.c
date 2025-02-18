@@ -14,7 +14,7 @@
  * @details This function converts all nodes in the list and save to an array.
  * @param   head			Pointer to first node of linked list
  * @param   uids			Array that stores UID 		
- * @param 	maxSize		Number of nodes in the list
+ * @param 	maxSize			Number of nodes in the list
  * @return  int				Return number of UIDs in the list
  **************************************************************************/
 int convertListToArray(Node* head, uint8_t uids[][5], int maxSize)
@@ -34,11 +34,11 @@ int convertListToArray(Node* head, uint8_t uids[][5], int maxSize)
 /**************************************************************************
  * @brief   Compare 2 UIDs
  * @details This function compares 2 UIDs.
- * @param   a			Pointer to the first UID
- * @param   b			Pointer to the second UID		
+ * @param   a		Pointer to the first UID
+ * @param   b		Pointer to the second UID		
  * @return  int		Return a negative value if the first UID is less than the second UID
- *										 	 0 if the two UIDs are equal
- *										 	 a positive value if the first UID is greater than the second UID
+ *						   0 if the two UIDs are equal
+ *						   a positive value if the first UID is greater than the second UID
  **************************************************************************/
 int compareUIDs(const void* a, const void* b) 
 {
@@ -62,7 +62,7 @@ void sortUIDs(uint8_t uids[][5], int count)
  * @details This function search UID in the array by using binary search.
  * @param   uids				Array that want to search UID
  * @param   count				Number of UIDs in the array	
- * @param		targetUID		UID to search
+ * @param	targetUID			UID to search
  * @return  bool				Return true if found UID
  *														 false if not found UID
  **************************************************************************/
